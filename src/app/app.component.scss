@@ -1,0 +1,175 @@
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 140px;
+    background-color: blue;
+}
+.username{
+    width: 300px;
+    height: 35px;
+    background-color: azure;
+    display: table-cell;
+    vertical-align: middle;
+}
+.balance{
+    width: 300px;
+    height: 35px;
+    background-color:#ad9f9f;
+}
+.balance-icon{
+    width: 40px;
+}
+.balance-1{
+    position: absolute;
+    top: 42px;
+    display: flex;
+}
+.balance-title{
+    width: 80px;
+}
+.balance-title-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.balance-digit{
+width:180px;
+}
+.balance-digit-1{
+    width: 170px;
+    height: 24px;
+    background-color: hotpink;
+}
+.totalbet{
+    width: 300px;
+    height: 35px;
+    background-color: cadetblue;
+
+}
+.totalbet-1{
+    position: absolute;
+    top: 78px;
+    display: flex;
+}
+.totalbet-icon{
+    width: 40px;
+}
+.totalbet-title-1{
+    width: 80px;
+}
+.totalbet-digit{
+width: 180px;
+}
+.totalbet-digit-1{
+    width: 170px;
+    height: 20px;
+    background-color: rgb(221, 24, 123);
+}
+.payout{
+    width: 300px;
+    height: 35px;
+    background-color: hotpink;
+
+}
+.payout-1{
+    position: absolute;
+    top: 112px;
+    display: flex;
+}
+.payout-icon{
+    width: 40px;
+}
+.payout-title{
+    width: 80px;
+}
+.payout-digit{
+    width: 180px;
+}
+.payout-digit-1{
+    width: 170px;
+    height: 20px;
+    background-color: rgb(221, 24, 123);
+}
+
+// bonus section
+
+
+.totalbet-bonus{
+    width: 300px;
+    height: 23px;
+    background-color: cadetblue;
+
+}
+.totalbet-bonus-1{
+    position: absolute;
+    top: 70.5px;
+    display: flex;
+}
+.totalbet-bonus-icon{
+    width: 40px;
+}
+.totalbet-bonus-title-1{
+    width: 80px;
+}
+.totalbet-bonus-digit{
+width: 180px;
+}
+.totalbet-bonus-digit-1{
+    width: 170px;
+    height: 20px;
+    background-color: rgb(221, 24, 123);
+}
+.payout-bonus{
+    width: 300px;
+    height: 23px;
+    background-color: hotpink;
+
+}
+.payout-bonus-1{
+    position: absolute;
+    top: 93.3px;
+    display: flex;
+}
+.payout-bonus-icon{
+    width: 40px;
+}
+.payout-bonus-title{
+    width: 80px;
+}
+.payout-bonus-digit{
+    width: 180px;
+}
+.payout-bonus-digit-1{
+    width: 170px;
+    height: 20px;
+    background-color: rgb(221, 24, 123);
+}
+.bonus{
+    width: 300px;
+    height: 24px;
+    background-color: rgb(21, 199, 36);
+}
+.bonus-1{
+    position: absolute;
+    top: 117px;
+    display: flex;
+}
+.bonus-icon{
+    width: 40px;
+}
+.bonus-title{
+    width: 80px;
+}
+.bonus-digit{
+    width: 180px;
+}
+.bonus-digit-1{
+    width: 170px;
+    height: 20px;
+    background-color: rgb(221, 24, 123);
+}
+span{
+    display:inline-block;
+    vertical-align: middle;
+}
