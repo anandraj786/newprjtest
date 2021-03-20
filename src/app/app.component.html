@@ -1,6 +1,6 @@
 <div class="container">
   <div class="username">
-    <span>username:</span><span>player 1</span>
+    <span class="username-title">username:</span><span class="user-name">player 1</span>
   </div>
   <div class="balance">
     <div class="balance-1">
@@ -11,7 +11,10 @@
         <span class="balance-title-1">Balance:</span>
       </div>
       <div class="balance-digit">
-        <span class="balance-digit-1">0</span>
+        <div class="balance-digit-background">
+          <span class="balance-digit-1">${{Balance}}</span>
+        </div>
+        
       </div>      
     </div>
   </div>
@@ -25,7 +28,7 @@
           <span class="totalbet-title-1">Total Bet:</span>
         </div>
         <div class="totalbet-digit">
-          <span class="totalbet-digit-1">0</span>
+          <span class="totalbet-digit-1">${{Totalbet}}</span>
         </div>      
       </div>
     </div>
@@ -38,7 +41,7 @@
           <span class="payout-title-1">Payout:</span>
         </div>
         <div class="payout-digit">
-          <span class="payout-digit-1">0</span>
+          <span class="payout-digit-1">${{Payout}}</span>
         </div>      
       </div>
     </div>
@@ -54,7 +57,7 @@
             <span class="totalbet-bonus-title-1">Total Bet:</span>
           </div>
           <div class="totalbet-bonus-digit">
-            <span class="totalbet-bonus-digit-1">0</span>
+            <span class="totalbet-bonus-digit-1">${{Totalbet}}</span>
           </div>      
         </div>
       </div>
@@ -67,7 +70,7 @@
             <span class="payout-bonus-title-1">Payout:</span>
           </div>
           <div class="payout-bonus-digit">
-            <span class="payout-bonus-digit-1">0</span>
+            <span class="payout-bonus-digit-1">${{Payout}}</span>
           </div>      
         </div>
       </div>
@@ -80,7 +83,7 @@
             <span class="bonus-title-1">Bonus:</span>
           </div>
           <div class="bonus-digit">
-            <span class="bonus-digit-1">{{Bonus}}</span>
+            <span class="bonus-digit-1">${{Bonus}}</span>
           </div>      
         </div>
       </div>

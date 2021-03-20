@@ -7,8 +7,8 @@
 })
 export class AppComponent {
   title = 'mytest';
-  Balance="$888888888888888.00";
-  Totalbet="$0";
-  Bonus=0;
-  Payout="$0"
+  Balance=888888888888888.00;
+  Totalbet=0;
+  Bonus=2500;
+  Payout=0;
 }
